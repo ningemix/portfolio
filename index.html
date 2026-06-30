@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio - João</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Menu de navegação superior -->
+    <header>
+        <nav>
+            <ul class="menu">
+                <li><a href="#sobre">Sobre mim</a></li>
+                <li><a href="#formacao">Formação</a></li>
+                <li><a href="#portfolio">Portfólio</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+            <button id="theme-toggle">Alternar Tema</button>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Seção: Sobre mim -->
+        <section id="sobre" class="section">
+            <h1>Sobre mim</h1>
+            <p>Olá, meu nome é João e moro em Ananindeua, Pará. Sou um entusiasta da tecnologia, com forte interesse na área de Tecnologia da Informação, sistemas operacionais baseados em Linux e programação.</p>
+            <p>Nas minhas horas livres, gosto de estudar modelagem de software (UML, DFD, BPMN), praticar xadrez para aprimorar o raciocínio lógico, e acompanhar as tendências do mercado de jogos, especialmente os rankings da Steam e franquias como Resident Evil, Kingdom Come: Deliverance e Stardew Valley. Também sou fã de anime e mangá, como One Piece, e acompanho de perto o futebol brasileiro, torcendo pelo Remo e Paysandu.</p>
+        </section>
+
+        <!-- Seção: Formação -->
+        <section id="formacao" class="section">
+            <h1>Formação</h1>
+            <div class="card">
+                <h3>Análise e Desenvolvimento de Sistemas (ADS)</h3>
+                <p>Status: Cursando</p>
+                <p>Foco prático em desenvolvimento de soluções tecnológicas, lógica de programação e arquitetura de sistemas.</p>
+            </div>
+            <div class="card">
+                <h3>Engenharia de Software</h3>
+                <p>Status: Cursando</p>
+                <p>Aprofundamento em metodologias ágeis, levantamento de requisitos, garantia de qualidade e engenharia de ciclo de vida de aplicações.</p>
+            </div>
+        </section>
+
+        <!-- Seção: Portfólio -->
+        <section id="portfolio" class="section">
+            <h1>Portfólio</h1>
+            <p>Abaixo estão alguns dos projetos práticos e acadêmicos nos quais tenho trabalhado:</p>
+            <ul class="portfolio-list">
+                <li>
+                    <strong>Customização de Interface Mobile:</strong> Projeto de design gráfico e edição de imagens com foco na personalização de ícones de aplicativos baseados na temática do anime One Piece, ajustando escalas e transparências.
+                </li>
+                <li>
+                    <strong>Modelagem de Sistemas:</strong> Resolução prática de arquiteturas de software e requisitos de sistemas acadêmicos utilizando diagramas UML e processos BPMN.
+                </li>
+                <li>
+                    <strong>Edição de Vídeo:</strong> Planejamento, formatação e criação de vídeos verticais (formato Reels) para mídias sociais utilizando técnicas iniciais de edição audiovisual.
+                </li>
+            </ul>
+        </section>
+
+        <!-- Seção: Contato -->
+        <section id="contato" class="section">
+            <h1>Contato</h1>
+            <p>Tem interesse em conversar sobre tecnologia, desenvolvimento ou até mesmo sobre uma partida de xadrez? Envie uma mensagem!</p>
+            
+            <form id="contact-form">
+                <div class="form-group">
+                    <label for="nome">Nome:</label>
+                    <input type="text" id="nome" name="nome" placeholder="Seu nome completo">
+                </div>
+                
+                <div class="form-group">
+                    <label for="email">E-mail:</label>
+                    <input type="email" id="email" name="email" placeholder="usuario@dominio.com">
+                </div>
+                
+                <div class="form-group">
+                    <label for="mensagem">Mensagem:</label>
+                    <textarea id="mensagem" name="mensagem" rows="5" placeholder="Sua mensagem"></textarea>
+                </div>
+                
+                <button type="submit" class="btn-submit">Enviar Mensagem</button>
+            </form>
+        </section>
+    </main>
+
+    <!-- Script JS -->
+    <script src="script.js"></script>
+</body>
+</html>
